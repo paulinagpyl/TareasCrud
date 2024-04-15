@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <title>Tareas</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div>
+                <h1>Listado de tareas</h1>
+                <hr>
+            </div>
+            <div class="ingreso" >
+                <label>Nueva tarea</label>
+                <input class="addInput" type="text" />
+                <button id="btnAgregar">Agregar</button>
+            </div>
+            <hr>
+            <h2>Tareas registradas</h3>   
+            <p>
+                <pre id="titulo">  ID             DESCRIPCION DE LAS TAREAS REGISTRADAS                 ELIMINAR      ESTADO DE LA TAREA </pre>
+            </p>
+            <!-- <p id="titulo" >&nbsp;&nbsp;&nbsp;ID&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Descripción de las tareas registradas&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eliminar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Estado de la tarea</p> -->
+            <div class="tasks"> </div>
+            <hr>
+            <div class="resumen">
+                <h3>Total: <span id="total"></span></h3>
+                <h3>Realizadas: <span id="listas" ></span> </h3>
+            </div>
+        </div>
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

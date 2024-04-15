@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url('https://platformuploads.s3.amazonaws.com/media/8134/7414/1580251225883999.jpg?Expires=1702249061&AWSAccessKeyId=AKIAJOIWZCRTROUA2YMQ&Signature=QPKtP7MYiUjcj0D7r%2FIsY2GItG0%3D');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+}
+.container{
+    border-style: solid;
+    width: 800px;
+    margin:50px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+    border-radius: 10px;
+}
+.container input{width: 400px;}
+.caja{
+    display: grid;
+    grid-template-columns: 20% 70% 10% 5% ;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+p, h3{margin: 5px;}
+h1{text-align: center;}
+.resumen{ margin: 0px;}
+
+.ingreso{
+    align-items: center;
+    text-align: center;
+}
+.tasks{
+    width: 60%;
+    padding-left: 40px;
+}
+#btnAgregar,#X{background-color:bisque;}
+#titulo{font-weight: bold;}
